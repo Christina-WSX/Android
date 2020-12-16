@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/write/write",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/editArt/editArt",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/look/look",
+            "style" : {
+				"enablePullDownRefresh": true
+				}
+        }
+        ,{
+            "path" : "pages/infer/infer",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/editArts/editArts",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {//全局样式显示
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "燃烧我的卡路里",//标题
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#707070",//底部导航栏文字颜色
+		"selectedColor": "#DE533A",//文字激活样式
+		"list":[//规范三个图标以及图标对应的内容
+			{
+				"pagePath": "pages/index/index",
+				 "text": "食物",
+				 "iconPath": "static/nav2.png",
+				 "selectedIconPath": "static/nav2-a.png"
+			},
+			{
+				"pagePath": "pages/look/look",
+				 "text": "文章",
+				 "iconPath": "static/nav1.png",
+				 "selectedIconPath": "static/nav1-a.png"
+			},
+			{
+				"pagePath": "pages/write/write",
+				 "text": "记账",
+				 "iconPath": "static/nav4.png",
+				 "selectedIconPath": "static/nav4-a.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				 "text": "我的",
+				 "iconPath": "static/nav3.png",
+				 "selectedIconPath": "static/nav3-a.png"
+			}
+		]//底部导航栏
+	}
+}

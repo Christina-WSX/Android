@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/write/write",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/editArt/editArt",
+    "pages/info/info",
+    "pages/look/look",
+    "pages/infer/infer",
+    "pages/editArts/editArts"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "燃烧我的卡路里",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#DE533A",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "食物",
+        "iconPath": "static/nav2.png",
+        "selectedIconPath": "static/nav2-a.png"
+      },
+      {
+        "pagePath": "pages/look/look",
+        "text": "文章",
+        "iconPath": "static/nav1.png",
+        "selectedIconPath": "static/nav1-a.png"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "text": "记账",
+        "iconPath": "static/nav4.png",
+        "selectedIconPath": "static/nav4-a.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/nav3.png",
+        "selectedIconPath": "static/nav3-a.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
