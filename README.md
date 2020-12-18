@@ -8,3 +8,4 @@
 将commons、graceUI、pages、static、unpackage、App.vue、main.js、manfest.json、pages.json、uni.scss导入HBuliderX新建的项目文件夹下，根据自己的电脑更改域名以及APPID和密钥等。
 
 将controllers、img、imgs、index.php导入HBUlider的WWW文件夹下。
+
